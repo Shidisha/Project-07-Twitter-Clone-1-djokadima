@@ -1,6 +1,6 @@
 const TweetEditor = () =>{
     return(
-        <div>
+        <div className="tweet-editor">
         
         </div>
     )
