@@ -1,7 +1,9 @@
-export default TweetEditor(){
+const TweetEditor = () =>{
     return(
         <div>
         
         </div>
     )
 }
+
+export default TweetEditor

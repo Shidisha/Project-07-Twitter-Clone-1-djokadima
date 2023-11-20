@@ -1,8 +1,12 @@
-export default function Header(){
+import PageTitle from "./page-title";
+
+ const Header =()=>{
     return(
       <header className="header">
-        <h1 className="page-title">Home</h1>
+        <PageTitle/>
       </header>
     )
 }
+
+export default Header
 
