@@ -1,3 +1,4 @@
+import TweetImage from "./tweet-image"
 import TweetText from "./tweet-text"
 import TweetTitle from "./tweet-title"
 
@@ -6,6 +7,7 @@ const TweetBody = () =>{
         <div className="tweet-body">
             <TweetTitle/>
             <TweetText/>
+            <TweetImage/>
         </div>
     )
 }
