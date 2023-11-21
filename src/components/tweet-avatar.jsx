@@ -1,8 +1,8 @@
 const TweetAvatar = () =>{
     return(
-        <div className="tweet-avatar">
-
-        </div>
+        <>
+            <img className="tweet-avatar" src="" alt="" />
+        </>
     )
 }
 
