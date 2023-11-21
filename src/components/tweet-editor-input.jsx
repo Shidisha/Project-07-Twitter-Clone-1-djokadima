@@ -1,8 +1,8 @@
 const TweetEditorInput = () =>{
     return(
-        <div className="tweet-editor-input">
-
-        </div>
+        <>
+            <input className="tweet-editor-input" type="text" />
+        </>
     )
 }
 
