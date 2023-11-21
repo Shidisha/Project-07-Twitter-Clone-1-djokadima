@@ -1,9 +1,11 @@
-import Avatar from "./avatar"
+import TweetEditorInput from "./tweet-editor-input"
 
 const TweetEditorForm = ()=>{
     return(
         <div className="tweet-editor-form">
-            <Avatar/>
+            <TweetEditorInput/>
         </div>
     )
 }
+
+export default TweetEditorInput

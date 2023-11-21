@@ -5,3 +5,5 @@ const TweetEditorInput = () =>{
         </div>
     )
 }
+
+export default TweetEditorInput
