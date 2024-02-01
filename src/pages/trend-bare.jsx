@@ -5,7 +5,7 @@ import setting from '../icones/Settings.png';
 import tweetProfil from '../images/Tweet-Profile-Photo.png';
 import verified from '../icones/Verified.png';
 import tweeterProfil from '../images/tweet-profile-photo.png';
-import imageTweeter from '../images/image1.png';
+
 
 const TrendsBare = () => {
   const itemTrends = [
@@ -58,11 +58,11 @@ const TrendsBare = () => {
       },
      {
        id:3,
-       profil:imageTweeter,
+       profil:tweeterProfil,
        nameTweeter:"Tweeter",
        verified: verified,
        titleAuthor: "tweeter",
-     }
+     },
    ]
   
   return (
@@ -92,7 +92,6 @@ const TrendsBare = () => {
         titleAuthor={itemFollow.titleAuthor}
         />
         ))}
-      
     </div>
     
  )
