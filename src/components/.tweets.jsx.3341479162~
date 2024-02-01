@@ -1,0 +1,52 @@
+import tweetProfilePhoto from '../images/tweet-profile-photo.png';
+import tweetProfilePhotoTwo from '../images/Tweet-Profile-Photo.png';
+import image1 from '../images/image 1.png';
+import tweetImage from '../images/tweet-image.png';
+import verified from '../icones/Verified.png';
+import Tweet from '../components/tweet.jsx';
+
+const tweetDateTable =[
+  {
+    tweetProfilePhoto : {tweetProfilePhoto}, 
+    tweetTitleAuthor: 'CNN', 
+    isVerified: {verified}, 
+    tweetTitleDetails: 'CNN', 
+    tweetTitleDateTime: '.2h',
+    tweetText: 'President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement',
+    id: 1
+  }, 
+  {
+    tweetProfilePhoto : {tweetProfilePhotoTwo}, 
+    tweetTitleAuthor: 'The New York Times', 
+    isVerified: {verified}, 
+    tweetTitleDetails: 'anytimes', 
+    tweetTitleDateTime: '.5m',
+    tweetText: 'Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished',
+    id: 2
+  },
+  {
+    tweetProfilePhoto : {image1}, 
+    tweetTitleAuthor: 'CNN', 
+    isVerified: {verified}, 
+    tweetTitleDetails: 'CNN', 
+    tweetTitleDateTime: '.5',
+    tweetText: 'Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished',
+    id: 3
+  }
+]
+
+const Tweets = () =>{
+  return(
+    <div className="tweets">
+      <Tweet tweetProfilePhoto ={tweetProfilePhoto} tweetTitleAuthor ={"CNN"} verified={verified}  tweetTitleDetails={"CNN"} tweetTitleDateTime={".2 h"} tweetText={"President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement"} numberReplay={"120"} numberRetweet={"57"} numberReact={"144"} nuberShare={"174"} />
+      
+      <Tweet tweetProfilePhoto ={tweetProfilePhotoTwo} tweetTitleAuthor ={"The New York Times"} verified={verified}  tweetTitleDetails={"anytimes"} tweetTitleDateTime={".2h"} tweetText={"Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished"} tweetImage={tweetImage} numberReplay={"19"} numberRetweet={"48"} numberReact={"482"} nuberShare={""}/>
+      
+      <Tweet tweetProfilePhoto ={image1} tweetTitleAuthor ={"CNN"} verified={verified}  tweetTitleDetails={"CNN"} tweetTitleDateTime={".Oct4"} tweetText={"Le tweet le plus drole kkk "} numberReplay={"6.8k"} numberRetweet={"36.6k"} numberReact={"267.1k"} numberShare={"15"}/>
+      
+      <Tweet tweetProfilePhoto ={image1} tweetTitleAuthor ={"CNN"} verified={verified}  tweetTitleDetails={"CNN"} tweetTitleDateTime={".Oct4"} tweetText={"President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement"} numberReplay={"170"} numberRetweet={"29"} numberReact={"198"} nuberShare={"200"}/>
+    </div>
+  );
+}
+
+export default Tweets;
