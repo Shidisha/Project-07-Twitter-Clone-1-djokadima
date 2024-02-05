@@ -11,7 +11,6 @@ const TrendsBare = () => {
   const itemTrends = [
     {
       id: 1,
-      title: "Trends For You",
       setting:setting,
       trending: "Trending in Turkey",
       More: More,
@@ -66,14 +65,15 @@ const TrendsBare = () => {
    ]
   
   return (
-    <div>
+    <div >
       <div>
-        <input placeholder='Search tweeter'/>
+        <input placeholder='Search tweeter' className='trend-chearch'/>
       </div>
+      <div  className="trends-for-you">
+      <h4>Trends for you</h4>
       {itemTrends.map((itemTrend) => (
         <TrendsBareItem
           key={itemTrend.id}
-          title={itemTrend.title}
           setting={itemTrend.setting}
           trending={itemTrend.trending}
           nameTweeter={itemTrend.nameTweeter}
@@ -82,6 +82,8 @@ const TrendsBare = () => {
           linkMore={itemTrend.linkMore}
         />
       ))}
+        </div>
+      <div className='trends-for-you'>
         {itemFollows.map((itemFollow)=>(
       <FollowBareItem
         key={itemFollow.id}
@@ -92,6 +94,7 @@ const TrendsBare = () => {
         titleAuthor={itemFollow.titleAuthor}
         />
         ))}
+      </div>
     </div>
     
  )

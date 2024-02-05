@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 
@@ -274,9 +277,12 @@ body{
   background-position: 10px center;
   background-color: rgb(71, 68, 68);
   padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 .trends-for-you{
   margin-top:5px;
+  margin-left:20px;
   width:240px;
   background-color: grey;
   border-radius: 8px;
