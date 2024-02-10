@@ -1,7 +1,15 @@
+import {useState} from "react";
 
+const Tweet = ({tweetProfilePhoto, tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime,tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet,React, Share})=> { 
+  
+  const [reactAction, setReactAction] = useState({numberReact});
+ // const [isIncrement, setIsIncrement] = useState('increment');
+  
+  const ReactClick = () => {
+       setReactAction(reactAction +1);
+  };
 
-const Tweet = ({tweetProfilePhoto, tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime,tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet, React, Share})=> { 
-
+  
   return(
     <div className="tweet">
       <div className="tweet-avatar">
@@ -30,8 +38,8 @@ const Tweet = ({tweetProfilePhoto, tweetTitleAuthor, Verified, tweetTitleDetails
             <p>{numberReply}</p>
           </div>
           <div className='tweet-action'>
-            <button className='tweet-action-button'><img src={React} alt='icone React'/></button>
-            <p>{numberReact}</p>
+             <button onClick ={ReactClick} className='tweet-action-button'><img src={React} alt='icone React'/></button>
+             <p>{numberReact}</p>
           </div>
           <div className='tweet-action'>
             <button className='tweet-action-button'><img src={Share} alt='icone Share'/></button>

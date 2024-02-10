@@ -1,14 +1,13 @@
-const TrendsBareItem =({setting,trending, nameTweeter, numberTweeter, More })=>{
+const TrendsBareItem =({trending, nameTweeter, numberTweeter, More })=>{
   return(
-    <div className="trends">
-    <div>
-      <img src={setting} className="trends-for-you-details"/>
-      <span className="trends-for-you-details">{trending}</span>
-      <img src={More} className="trends-for-you-details"/>
-      <p className="trends-for-you-details">{nameTweeter}</p>
-      <span className="trends-for-you-details">{numberTweeter}tweets</span>
-    </div>
-    </div>
+  <div className="trends" >
+     <div className="trends-details">
+        <span className='trending'>{trending}</span>
+        <p>{nameTweeter}</p>
+        <span className='trending'>{numberTweeter} Tweets</span>
+      </div>
+       <img className="trends-more" src={More} />
+  </div>
   )
 }
 

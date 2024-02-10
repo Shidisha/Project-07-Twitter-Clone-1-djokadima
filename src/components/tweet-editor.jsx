@@ -1,15 +1,15 @@
-import ProfilePhoto from '../images/profile-photo.png';
-import Emoji from '../icones/Emoji.png';
-import Gif from '../icones/Gif.png';
-import Media from '../icones/Media.png';
-import Poll from '../icones/Poll.png';
-import Schedule from '../icones/Schedule.png';
+import tweeterData from '../tweeter-data.json';
+import Media from '../icones.Media.png';
+import Gif from '../icones.Gif.png';
+import Poll from "../icones.Poll.png";
+import Emoji from "../icones.Emoji.png";
+import Schedule from "../icones/Schedule.png";
 
 const TweetEditor = () => {
   return (
     <div>
       <div className='tweet-editor'>
-        <a href='#'><img src={ProfilePhoto} alt='image photo tweeter' /></a>
+        <a href='#'><img src={tweeterData.users[1]} alt='image photo tweeter' /></a>
         <div className='tweet-editor-form'>
           <input className='tweet-editor-input' type="text" name="text" placeholder='Whats happening?' />
           <div className='tweet-editor-buttons'>

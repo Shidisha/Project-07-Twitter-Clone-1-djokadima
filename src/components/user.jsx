@@ -1,17 +1,17 @@
-import imageProfil from '../images/profile-photo.png';
-import Private from '../icones/Private.png';
-import More from '../icones/More-2.png';
+import tweeterData from '../tweeter-data.json';
 
 const UserTweet = () =>{
   return(
     <div className='side-bare-user'>
-      <img className='user-picture' src={imageProfil} alt='user picture'/>
-      <span className='user-name'>djo kadima</span>
-      <img className='user-icone' src={Private} alt='icone shop'/>
-      <h6 className='user-tweeter'>@djo</h6>
-      <img className='user-see-more' src={More} alt='icone see more'/>
+        <div className='bare-user'>
+            <img className='user-picture' src={tweeterData.users[1]} alt='user picture'/>
+            <span className='user-name'>{tweeterData.users[2]}</span>
+            <img className='user-icone' src= {tweeterData.users[4]} alt='icone shop'/>
+            <h6 className='user-tweeter'>@{tweeterData.users[3]}</h6>
+        </div>
+       <img className='user-see-more' src={tweeterData.users[5]} alt='icone see more'/>
     </div>
   )
 }
 
-export default UserTweet
+export default UserTweet;
