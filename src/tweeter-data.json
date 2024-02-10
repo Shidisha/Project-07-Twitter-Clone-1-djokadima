@@ -1,186 +1,184 @@
 {
-  "tweet":[
-    {
-      "id": 1,
-      "tweetProfilePhoto" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png", 
-      "tweetTitleAuthor": "CNN", 
-      "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png", 
-      "tweetTitleDetails": "CNN", 
-      "tweetTitleDateTime": ".2h",
-      "tweetText": "President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement",
-      "tweetImage": null,
-      "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
-      "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
-      "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
-      "Share" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
-      "numberRetweet": 57,
-      "numberReply": 14,
-      "numberReact": 144,
-      "nuberShare": 174,
-    }, 
-    {
-      "id": 2,
-      "tweetProfilePhoto" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/u18c5hld1qzbnwaaqe56.png", 
-      "tweetTitleAuthor": "The New York Times", 
-      "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png", 
-      "tweetTitleDetails": "anytimes", 
-      "tweetTitleDateTime": ".5m",
-      "tweetText": "Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished",
-      "tweetImage": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507521/axvgzdhydluq1kmg1kzv.png",
-      "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
-      "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
-      "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
-      "Share" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
-      "numberRetweet": 19,
-      "numberReply": 48,
-      "numberReact": 482,
-      "nuberShare": '',
-    },
-    {
-      "id": 3,
-      "tweetProfilePhoto" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png", 
-      "tweetTitleAuthor": "CNN", 
-      "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png", 
-      "tweetTitleDetails": "CNN", 
-      "tweetTitleDateTime": ".4 Oct",
-      "tweetText": "Le tweet le plus drole kkk",
-      "tweetImage": null,
-      "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png";
-      "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png";
-      "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
-      "Share" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
-      "numberRetweet": 6.8,
-      "numberReply": 36.6,
-      "numberReact": 267.1,
-      "nuberShare": '',
-    },
-    {
-      "id": 4,
-      "tweetProfilePhoto" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png", 
-      "tweetTitleAuthor": "CNN", 
-      "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png", 
-      "tweetTitleDetails": "CNN", 
-      "tweetTitleDateTime": ".4 Oct",
-      "tweetText": "Le tweet le plus drole kkk",
-      "tweetImage": null,
-      "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
-      "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
-      "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
-      "Share" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
-      "numberRetweet": '118.7k',
-      "numberReply": '785.4k',
-      "numberReact": '3.3M',
-      "nuberShare": '',
-    }
-  ];
-  "itemSides":[
-    {
-      "id": 1,
-      "iconeHome": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543080/g0dangdtkfhcpvajfijs.png",
-      "label": "Home",
-    },
-    {
-      "id": 2,
-      "iconeExplore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543286/sxug4mlvozgtzodsldl6.png",
-      "label":"Explore",
-    },
-    {
-      "id": 3,
-      "iconeNotifications": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543340/czmt15tgmjgji8srxwvx.png",
-      "label": "Notifications",
-    },
-    {
-      "id": 4,
-      "iconeMessages": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543407/gcqw72ypvdlyrhge4amh.png",
-      "label": "Messages",
-    },
-    {
-      "id": 5,
-      "iconeBookmarks": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543471/rc5k8siulhxpmukmxlye.png",
-      "label": "Bookmarks",
-    },
-    {
-      "id": 6,
-      "iconeLists": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543515/shm7mqumvp0v2z3e2qqm.png",
-      "label": "Lists",
-    },
-    {
-      "id": 7,
-      "iconeProfile": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543564/cbgdzzz675c55yxuwca6.png",
-      "label": "Profile",
-    },
-    {
-      "id": 8,
-      "iconeMore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543611/wnepltrsfvnhumqp1alk.png",
-      "label": "More",
-    },
-  ],
-  "users":[
-    {
-    "userProfilePhoto":"https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
-    "userName": "Djo kadima",
-    "nickName": "djo",
-    "Private": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707544985/jbpnyxaa4vvlp3btlckg.png",
-    "iconeMore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543611/wnepltrsfvnhumqp1alk.png",
-    },
-  ],
-  
-  "trendBare":[
-    {
-      "id": 1,
-      "title": "Trends for you";
-      "setting":"https://res.cloudinary.com/dheib2lbf/image/upload/v1707514749/zooupiipamgjh2zmf0dq.png",
-      "trending": "Trending in Turkey",
-      "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
-      "nameTweeter": "SQUID",
-      "numberTweeter": 2,066,
-    },
-    {
-      "id": 2,
-      "trending": "Trending in Turkey",
-      "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
-      "nameTweeter": "SQUID",
-      "numberTweeter": 2,066,
-    },
-    {
-      "id": 3,
-      "trending": "Trending in Turkey",
-      "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
-      "nameTweeter": "SQUID",
-      "numberTweeter": 2,066,
-    },
-    {
-      "id": 4,
-      "trending": "Trending in Turkey",
-      "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
-      "nameTweeter": "SQUID",
-      "numberTweeter": 2,066,
-      "shwoMore": "Swho-more",
-    }
-  ];
-  "trendFollows" = [
-     {
-       "id":1,
-       "title": "Who to follow",
-       "profil":"https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
-       "nameTweeter":"The New York Times",
-       "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
-       "titleAuthor": "anytimes",
-     },
-     {
-        "id":2,
-        "profil":"https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
-        "nameTweeter":"CNN",
-        "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
-        "titleAuthor": "CNN",
-      },
-     {
-       "id":3,
-       "profil":"https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
-       "nameTweeter":"Tweeter",
-       "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
-       "titleAuthor": "tweeter",
-     },
-   ]
- 
+    "tweet": [
+        {
+            "id": 1,
+            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
+            "tweetTitleAuthor": "CNN",
+            "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "tweetTitleDetails": "CNN",
+            "tweetTitleDateTime": ".2h",
+            "tweetText": "President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement President Joe biden touted a nex appointement",
+            "tweetImage": null,
+            "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
+            "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
+            "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
+            "Share": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
+            "numberRetweet": 57,
+            "numberReply": 14,
+            "numberReact": 144,
+            "nuberShare": 174
+        },
+        {
+            "id": 2,
+            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/u18c5hld1qzbnwaaqe56.png",
+            "tweetTitleAuthor": "The New York Times",
+            "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "tweetTitleDetails": "anytimes",
+            "tweetTitleDateTime": ".5m",
+            "tweetText": "Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished Garderring bouring proning the pandemic. Six blacks whriters shares whats are halpened them re-stablished",
+            "tweetImage": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507521/axvgzdhydluq1kmg1kzv.png",
+            "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
+            "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
+            "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
+            "Share": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
+            "numberRetweet": 19,
+            "numberReply": 48,
+            "numberReact": 482,
+            "nuberShare": 22
+        },
+        {
+            "id": 3,
+            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
+            "tweetTitleAuthor": "CNN",
+            "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "tweetTitleDetails": "CNN",
+            "tweetTitleDateTime": ".4 Oct",
+            "tweetText": "Le tweet le plus drole kkk",
+            "tweetImage": null,
+            "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
+            "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
+            "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
+            "Share": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
+            "numberRetweet": 6.8,
+            "numberReply": 36.6,
+            "numberReact": 267.1,
+            "nuberShare": 65
+        },
+        {
+            "id": 4,
+            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
+            "tweetTitleAuthor": "CNN",
+            "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "tweetTitleDetails": "CNN",
+            "tweetTitleDateTime": ".4 Oct",
+            "tweetText": "Le tweet le plus drole kkk",
+            "tweetImage": null,
+            "React": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508607/uco4gaqjmjgbwdhceduv.png",
+            "Reply": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508740/mxa4cvkckweuujoevsz6.png",
+            "Retweet": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508810/wmka2dcrb8g6iylmy4co.png",
+            "Share": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508867/qi3fzqeqwbfkkfrt6pwo.png",
+            "numberRetweet": 118,
+            "numberReply": 785,
+            "numberReact": 3.3,
+            "nuberShare": 8
+        }
+    ],
+    "itemSides": [
+        {
+            "id": 1,
+            "iconeHome": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543080/g0dangdtkfhcpvajfijs.png",
+            "label": "Home"
+        },
+        {
+            "id": 2,
+            "iconeExplore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543286/sxug4mlvozgtzodsldl6.png",
+            "label": "Explore"
+        },
+        {
+            "id": 3,
+            "iconeNotifications": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543340/czmt15tgmjgji8srxwvx.png",
+            "label": "Notifications"
+        },
+        {
+            "id": 4,
+            "iconeMessages": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543407/gcqw72ypvdlyrhge4amh.png",
+            "label": "Messages"
+        },
+        {
+            "id": 5,
+            "iconeBookmarks": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543471/rc5k8siulhxpmukmxlye.png",
+            "label": "Bookmarks"
+        },
+        {
+            "id": 6,
+            "iconeLists": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543515/shm7mqumvp0v2z3e2qqm.png",
+            "label": "Lists"
+        },
+        {
+            "id": 7,
+            "iconeProfile": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543564/cbgdzzz675c55yxuwca6.png",
+            "label": "Profile"
+        },
+        {
+            "id": 8,
+            "iconeMore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543611/wnepltrsfvnhumqp1alk.png",
+            "label": "More"
+        }
+    ],
+    "users": [
+        {
+            "userProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
+            "userName": "Djo kadima",
+            "nickName": "djo",
+            "Private": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707544985/jbpnyxaa4vvlp3btlckg.png",
+            "iconeMore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543611/wnepltrsfvnhumqp1alk.png"
+        }
+    ],
+    "trendBare": [
+        {
+            "id": 1,
+            "title": "Trends for you",
+            "setting": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514749/zooupiipamgjh2zmf0dq.png",
+            "trending": "Trending in Turkey",
+            "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
+            "nameTweeter": "SQUID",
+            "numberTweeter": 2.066
+        },
+        {
+            "id": 2,
+            "trending": "Trending in Turkey",
+            "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
+            "nameTweeter": "SQUID",
+            "numberTweeter": 2.066
+        },
+        {
+            "id": 3,
+            "trending": "Trending in Turkey",
+            "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
+            "nameTweeter": "SQUID",
+            "numberTweeter": 2.066
+        },
+        {
+            "id": 4,
+            "trending": "Trending in Turkey",
+            "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
+            "nameTweeter": "SQUID",
+            "numberTweeter": 2.066,
+            "shwoMore": "Shwo-more"
+        }
+    ],
+    "trendFollows": [
+        {
+            "id": 1,
+            "title": "Who to follow",
+            "profil": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
+            "nameTweeter": "The New York Times",
+            "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "titleAuthor": "anytimes"
+        },
+        {
+            "id": 2,
+            "profil": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
+            "nameTweeter": "CNN",
+            "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "titleAuthor": "CNN"
+        },
+        {
+            "id": 3,
+            "profil": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707507520/sljn2de4y70tfkmhzxxh.png",
+            "nameTweeter": "Tweeter",
+            "verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
+            "titleAuthor": "tweeter"
+        }
+    ]
 }

@@ -30,6 +30,5 @@ const TweetEditor = () => {
 
     </div>
   );
-  
 }
 export default TweetEditor
