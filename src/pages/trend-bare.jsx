@@ -5,19 +5,18 @@ import tweeterData from '../tweeter-data.json';
 
 const TrendsBare = () => {
   return (
-    <div>
+    <div className="trends">
       <div>
         <input placeholder='Search tweeter' className='trend-chearch'/>
       </div>
       <div  className="trends-for-you">
         <div className='trends-for-you-title'>
-          <h4>{tweeterData.tendBare[1]}</h4>
-          <img src={tweeterData.trendBare[2]} className="trends-setting"/>
+          <h4>{tweeterData.trendBare.title}</h4>
+          <img className="trends-setting" src="https://res.cloudinary.com/dheib2lbf/image/upload/v1707514749/zooupiipamgjh2zmf0dq.png" />
         </div>
       {tweeterData.trendBare.map((itemTrend) => (
         <TrendsBareItem
           key={itemTrend.id}
-          setting={itemTrend.setting}
           trending={itemTrend.trending}
           nameTweeter={itemTrend.nameTweeter}
           More={itemTrend.More}
@@ -25,7 +24,7 @@ const TrendsBare = () => {
           linkMore={itemTrend.linkMore}
         />
       ))}
-        <a className="see-more" href='#'>{tweeterData.trendBare[5]}</a>
+        <a className="see-more" href="#">Show more</a>
         </div>
       <div className='trends-for-you'>
         {tweeterData.trendFollows.map((itemFollow)=>(
@@ -40,7 +39,7 @@ const TrendsBare = () => {
         ))}
       </div>
     </div>
-    
+
  )
 }
 export default TrendsBare;

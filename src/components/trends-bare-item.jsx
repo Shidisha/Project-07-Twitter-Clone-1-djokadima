@@ -1,12 +1,13 @@
 const TrendsBareItem =({trending, nameTweeter, numberTweeter, More })=>{
   return(
-  <div className="trends" >
+  <div className="trend">
      <div className="trends-details">
-        <span className='trending'>{trending}</span>
+        <span className= "trending" >{trending}</span>
         <p>{nameTweeter}</p>
-        <span className='trending'>{numberTweeter} Tweets</span>
+        <span className= "trending"> {numberTweeter} Tweets</span>
       </div>
        <img className="trends-more" src={More} />
+       
   </div>
   )
 }

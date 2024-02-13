@@ -6,4 +6,4 @@ const Pofile = () =>{
   )
 }
 
-export default;
+export default Profile;

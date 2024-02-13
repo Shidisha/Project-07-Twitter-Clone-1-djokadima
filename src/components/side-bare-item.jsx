@@ -1,8 +1,8 @@
-const SideBareItem = ({label, icone}) =>{
+const SideBareItem = ({name, iconeName}) =>{
   return(
         <div className ="flex-side">
-            <a className='side-bare-user' href="#"><img src={icone} alt="icone"/></a>
-            <span className="side-bare-label">{label}</span>
+            <span className='side-bare-icone'>{iconeName}</span>
+            <span className="side-bare-label">{name}</span>
         </div>
   )
 }

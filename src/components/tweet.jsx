@@ -1,19 +1,25 @@
 import {useState} from "react";
 
-const Tweet = ({tweetProfilePhoto, tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime,tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet,React, Share})=> { 
+const Tweet = ({tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime,tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet,React, Share})=> { 
   
-  const [reactAction, setReactAction] = useState({numberReact});
- // const [isIncrement, setIsIncrement] = useState('increment');
+  const [react, setReact] = useState({numberReact});
+  const [typeReact, setTypeReact] = useState("increment");
   
   const ReactClick = () => {
-       setReactAction(reactAction +1);
+    if(typeReact === "increment"){
+          setReact(react +1);
+          setTypeReact("desincrement");
+    }else{
+      setReact(react -1);
+      setTypeReact("increment");
+    }
   };
 
   
   return(
     <div className="tweet">
       <div className="tweet-avatar">
-          <a href='#'><img src={tweetProfilePhoto} alt='image tweet profile photo'/></a>
+          <a href='#'><img src="https://res.cloudinary.com/dheib2lbf/image/upload/v1707564276/tzkmefyetmhbi4tk4qu0.png" alt='image tweet profile photo'/></a>
       </div>
       <div className="tweet-content">
         <div className="tweet-body">

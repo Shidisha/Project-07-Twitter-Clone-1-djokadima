@@ -199,22 +199,22 @@ display: flex;
 }
 
 .side-bare{
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   flex-direction: space-between;
+  position: sticky;
 }
 
 .flex-side{
+  position: sticky;
   display: flex;
   margin-left: 180px;
   margin-top: 10px;
   margin-right:20px;
 }
-.side-bare-logo{
-  display: flex;
-  margin-right:10px;
-  margin-left: 180px;
-  margin-top: 10px;
-  margin-right:20px;
+.side-bare-icone{
+  font-size: 25px;
 }
 
 .side-bare-label{
@@ -222,7 +222,6 @@ display: flex;
   flex-direction: column;
   margin-top: 10px;
   padding-left: 10px;
-  
 }
 
 .side-bare-button{
@@ -231,7 +230,7 @@ display: flex;
   border: none;
   border-radius: 50px;
   background-color: #1D9BF0;
-  color: white;
+  color: #ffeeff;
   font-size: 1rem;
   width: 10rem;
   margin-left: 180px;
@@ -239,12 +238,12 @@ display: flex;
   margin-right:20px;
 }
 
-.side-bare-user{
-  display: flex;
-  margin-top: 10px;
-  margin-right:20px;
+.see-more{
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #1260fd
+ 
 }
-
 .bare-user{
   display: flex;
   margin-top: 10px;
@@ -266,8 +265,18 @@ display: flex;
 }
 
 .trends{
+  position: sticky;
   flex: 0 0 400px;
-  width: 290px;
+  width: 100px;
+  padding-right: 100px;
+  top: 0;
+  gap: 10px;
+  height: 100%;
+  border-right: 1px solid #2F3336;
+  margin-bottom: 2rem;
+  }
+
+.trend{
   display: flex;
   top: 0;
   justify-content: space-between;
@@ -330,7 +339,7 @@ display: flex;
 
 .trends-follow-details{
     display: flex;
-    margin-top: 30px;
+    padding-top: 30px;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
@@ -346,7 +355,6 @@ display: flex;
   background-color: #ffffff;
   color: black;
   font-size: 1rem;
-  display: flex;
 }
 .show-more{
   margin-top: 20px;
@@ -379,8 +387,9 @@ display: flex;
 }
 
 .trend-title-author{
-  font-size: 1rem;
+   font-size: 1rem;
 }
 .trend-title-details{
    color: #6E767D;
+  
 }

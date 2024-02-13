@@ -2,7 +2,7 @@
     "tweet": [
         {
             "id": 1,
-            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
+            "tweetProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707564276/tzkmefyetmhbi4tk4qu0.png",
             "tweetTitleAuthor": "CNN",
             "Verified": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707508446/ehl10wi1ibmjnvwsurch.png",
             "tweetTitleDetails": "CNN",
@@ -73,48 +73,6 @@
             "nuberShare": 8
         }
     ],
-    "itemSides": [
-        {
-            "id": 1,
-            "iconeHome": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543080/g0dangdtkfhcpvajfijs.png",
-            "label": "Home"
-        },
-        {
-            "id": 2,
-            "iconeExplore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543286/sxug4mlvozgtzodsldl6.png",
-            "label": "Explore"
-        },
-        {
-            "id": 3,
-            "iconeNotifications": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543340/czmt15tgmjgji8srxwvx.png",
-            "label": "Notifications"
-        },
-        {
-            "id": 4,
-            "iconeMessages": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543407/gcqw72ypvdlyrhge4amh.png",
-            "label": "Messages"
-        },
-        {
-            "id": 5,
-            "iconeBookmarks": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543471/rc5k8siulhxpmukmxlye.png",
-            "label": "Bookmarks"
-        },
-        {
-            "id": 6,
-            "iconeLists": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543515/shm7mqumvp0v2z3e2qqm.png",
-            "label": "Lists"
-        },
-        {
-            "id": 7,
-            "iconeProfile": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543564/cbgdzzz675c55yxuwca6.png",
-            "label": "Profile"
-        },
-        {
-            "id": 8,
-            "iconeMore": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707543611/wnepltrsfvnhumqp1alk.png",
-            "label": "More"
-        }
-    ],
     "users": [
         {
             "userProfilePhoto": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707505228/ln3xb6igyaysff7mglkg.png",
@@ -128,7 +86,6 @@
         {
             "id": 1,
             "title": "Trends for you",
-            "setting": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514749/zooupiipamgjh2zmf0dq.png",
             "trending": "Trending in Turkey",
             "More": "https://res.cloudinary.com/dheib2lbf/image/upload/v1707514895/ud5nzoh5lo2dqxeotdye.png",
             "nameTweeter": "SQUID",
