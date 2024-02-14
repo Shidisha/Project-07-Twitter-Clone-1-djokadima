@@ -1,9 +1,9 @@
 import tweeterData from '../tweeter-data.json';
-import Emoji from '../icones/Emoji.png';
-import Gif from '../icones/Gif.png';
-import Media from '../icones/Media.png';
-import Poll from '../icones/Poll.png';
-import Schedule from '../icones/Schedule.png';
+import { BsEmojiGrin } from "react-icons/bs";
+import { MdOutlineGifBox } from "react-icons/md";
+import { GoFileMedia } from "react-icons/go";
+import { BiPoll } from "react-icons/bi";
+import { GrScheduleNew } from "react-icons/gr";
 
 const TweetEditor = () => {
   return (
@@ -14,11 +14,11 @@ const TweetEditor = () => {
           <input className='tweet-editor-input' type="text" name="text" placeholder='Whats happening?' />
           <div className='tweet-editor-buttons'>
             <div className='tweet-editor-actions'>
-              <img src={Media} alt='Media icone' />
-              <img src={Gif} alt='Gif icone' />
-              <img src={Poll} alt='Poll icone' />
-               <img src={Emoji} alt='Emoji icone' />
-              <img src={Schedule} alt='Schedule icone'/>
+              <span><GoFileMedia /></span>
+              <span><MdOutlineGifBox /></span>
+              <span><BiPoll /></span>
+              <span><BsEmojiGrin /></span>
+              <span><GrScheduleNew /></span>
               
             </div>
             <div >
@@ -27,7 +27,6 @@ const TweetEditor = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

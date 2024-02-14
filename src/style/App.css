@@ -92,6 +92,7 @@ body{
     justify-content: flex-start;
     /*padding: 0.8rem 0;*/
     gap: 1rem;
+    font-size: 20px;
 }
 
 .tweet-action-button{
@@ -203,14 +204,13 @@ display: flex;
   top: 0;
   justify-content: space-between;
   flex-direction: space-between;
-  position: sticky;
 }
 
 .flex-side{
   position: sticky;
   display: flex;
   margin-left: 180px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-right:20px;
 }
 .side-bare-icone{
@@ -358,7 +358,7 @@ display: flex;
 }
 .show-more{
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 50px;
   color: #1D9BF0;
   padding: 20px 20px 20px 10px;
@@ -387,7 +387,7 @@ display: flex;
 }
 
 .trend-title-author{
-   font-size: 1rem;
+   font-size: 10px;
 }
 .trend-title-details{
    color: #6E767D;
