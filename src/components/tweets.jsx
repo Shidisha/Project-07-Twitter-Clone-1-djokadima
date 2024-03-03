@@ -19,6 +19,7 @@ const Tweets = () =>{
           numberReact = {tweetkey.numberReact}
           nuberShare = {tweetkey.nuberShare}
           React = {tweetkey.React}
+          Rreact = {tweetkey.Rreact}
           Reply = {tweetkey.Reply}
           Retweet = {tweetkey.Retweet}
           Share = {tweetkey.Share}

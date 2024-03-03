@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Tweet = ({ tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime, tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet, React, Share }) => {
+const Tweet = ({ tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTime, tweetImage, tweetText, numberRetweet, numberReply, numberReact, numberShare, Reply, Retweet, React, Rreact, Share }) => {
 
   const [react, setReact] = useState(numberReact);
   const [typeReact, setTypeReact] = useState("increment");
@@ -11,11 +11,11 @@ const Tweet = ({ tweetTitleAuthor, Verified, tweetTitleDetails, tweetTitleDateTi
     if (typeReact === "increment") {
       setReact(react + 1);
       setTypeReact("desincrement");
-      setIcon(Share);
+      setIcon(React);
     } else {
       setReact(react - 1);
       setTypeReact("increment");
-      setIcon(React);
+      setIcon(Rreact);
     }
   };
 

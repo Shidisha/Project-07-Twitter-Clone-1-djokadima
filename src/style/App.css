@@ -277,6 +277,7 @@ display: flex;
   }
 
 .trend{
+  position: sticky;
   display: flex;
   top: 0;
   justify-content: space-between;
@@ -347,43 +348,43 @@ display: flex;
 }
 
 .button-follow{
-  text-transform: capitalize;
-  padding: .7rem 1.5rem;
-  margin-left: 1rem;
-  border: none;
-  border-radius: 50px;
-  background-color: #ffffff;
-  color: black;
-  font-size: 1rem;
+    text-transform: capitalize;
+    padding: .7rem 1.5rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1rem;
 }
 .show-more{
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 50px;
-  color: #1D9BF0;
-  padding: 20px 20px 20px 10px;
-  transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 50px;
+    color: #1D9BF0;
+    padding: 20px 20px 20px 10px;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
 .who-to-follow-title{
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  font-weight: 50px;
-  padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 50px;
+    padding: 10px 0px 0px 10px;
 }
 
 .trend-avatar{
-  height: 70px;
-  width: 70px;
-  flex: 0 0 70px;
+    height: 70px;
+    width: 70px;
+    flex: 0 0 70px;
 }
 
 .who-to-follow-contenair{
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-  padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px 10px;
 }
 
 .trend-title-author{
